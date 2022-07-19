@@ -1,0 +1,10 @@
+<h1>{{ title }}</h1>
+<p>A função soma retorna: {{ soma() }}</p>
+<p>Meu nome é {{ meuNome }}</p>
+
+<h1>Lista de Nomes: </h1>
+<ul>
+  <li *ngFor="let nome of nomes">
+    {{ nome }}
+  </li>
+</ul>
